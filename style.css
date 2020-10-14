@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Londrina Solid", cursive;
+    background-image: url("https://i.ytimg.com/vi/MU3qrgR2Kkc/maxresdefault.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#logo {
+    display: block;
+    margin: 2%;
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 25%;
+    left: 35%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
+}
+
+.house {
+    background-color: white;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 34%;
+    left: 35%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    padding: 0px 10px;
+}
+
+select {
+    display: block;
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+    border: 1px solid gray;
+}
+
+.red-block {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/20/39/05582db137ba72d.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.green-block {
+    background-image: url("https://st2.depositphotos.com/1332421/8229/i/950/depositphotos_82291304-stock-photo-light-green-textured-background.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.blue-block {
+    background-image: url("https://st2.depositphotos.com/1423805/5735/v/950/depositphotos_57353859-stock-illustration-blue-paper-texture-background.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+}
+
+#button {
+    background-color: teal;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+#button-green {
+    background-color: yellowgreen;
+    color: black;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin: 30px;
+    font-size: 1.1em;
+}
+
+#button-red {
+    background-color: red;
+    color: black;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin: 30px;
+    font-size: 1.1em;
+}
+
+#button-blue {
+    background-color: dodgerblue;
+    color: black;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin: 30px;
+    font-size: 1.1em;
+}
+
+#button-blue:hover,
+#button-red:hover,
+#button-green:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+h1 {
+    padding: 10px;
+}
+
+#angrybird {
+    width: 34%;
+}
+
+#elsa {
+    width: 20%;
+}
+
+#green {
+    position: absolute;
+    left: 67%;
+    top: 3%;
+}
+
+#green>img {
+    width: 90%;
+}
+
+#minion {
+    width: 53%;
+    margin: 10px;
+}
+
+#img1 {
+    position: absolute;
+    left: 70%;
+    width: 20%;
+}

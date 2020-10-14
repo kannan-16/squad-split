@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Select your House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="resetSelection()">
+    <img id="logo" src="https://res.cloudinary.com/pavie/image/upload/v1599471282/Logo1.png" alt="">
+    <div class="container">
+        <label for="squad-name">Select your squad</label>
+        <select id="squad" size="1" onchange="makeSubmenu(this.value)">
+            <option value="" disabled selected>Choose Squad</option>
+            <option>Squad43</option>
+            <option>Squad44</option>
+            <option>Squad45</option>
+            <option>Squad46</option>
+            <option>Squad47</option>
+            <option>Squad48</option>
+            <option>Squad49</option>
+            <option>Squad50</option>
+            <option>Squad51</option>
+            <option>Squad52</option>
+        </select>
+        <label for="student-name">Select your name</label>
+        <select id="name" size="1">
+            <option value="" disabled selected>Who are you?</option>
+            <option></option>
+        </select>
+        <img id="minion" src="https://wp-modula.com/wp-content/uploads/2018/12/giphy-3.gif" alt="my-gif">
+        <br>
+        <button id="button" onclick="displaySelected()">Check Your House ✨ </button>
+    </div>
+    <!-- <img id="img1"
+        src="https://www.pinclipart.com/picdir/big/26-264491_escola-formatura-girl-student-vector-png-clipart.png"
+        alt=""> -->
+    <script src="./app.js"></script>
+</body>
+
+</html>

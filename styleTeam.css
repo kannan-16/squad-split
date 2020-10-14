@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    background: white;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+th {
+    border: 1px solid black;
+
+}
+
+#red {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/20/39/05582db137ba72d.jpg");
+    background-size: cover;
+}
+
+#green {
+    background-image: url("https://st2.depositphotos.com/1332421/8229/i/950/depositphotos_82291304-stock-photo-light-green-textured-background.jpg");
+    background-size: cover;
+}
+
+#blue {
+    background-image: url("https://st2.depositphotos.com/1423805/5735/v/950/depositphotos_57353859-stock-illustration-blue-paper-texture-background.jpg");
+    background-size: cover;
+}
