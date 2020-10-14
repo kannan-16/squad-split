@@ -149,7 +149,7 @@ var blue = [
     "Shreya Sreenivasa",
     "Maitri Chakraborty",
     "Tanve",
-    "Mayank",
+    "Mayank Agarwal",
     "Eshan venkatesh",
     "Vihaan Agrawal",
     "Anderson",
@@ -227,9 +227,11 @@ function displaySelected() {
     } else if (blue.indexOf(Student) != -1) {
         //alert(Squad + "\n" + Student + " " + "blue");
         location.href = "./blue.html";
-    } else {
+    } else if (green.indexOf(Student) != -1) {
         //alert(Squad + "\n" + Student + " " + "green");
         location.href = "./green.html";
+    } else {
+        location.href = "./error.html";
     }
 }
 
