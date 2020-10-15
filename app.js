@@ -117,7 +117,7 @@ var red = [
     "Poorvika Sree",
     "Kavinisha",
     "Hiranmayi",
-    "Aditya",
+    "Aditya Bachepallikar",
     "Atharv",
     "Rittvik Arrvind",
     "Ayden",
